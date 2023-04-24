@@ -3,17 +3,24 @@
 body 
 {
   font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
+  text-decoration:underline;
+  text-decoration-color: #008080;
+  text-indent:100px;
+  font-size:30px;
 }
 
 form {
   margin: 20px auto;
-  max-width: 300px;
+  max-width: 500px;
+  border: 2px solid #008080 ;
+  border-radius: 5px;
   padding: 10px;
-  border: 1px solid #ccc;
 }
 
 form h2 {
@@ -21,8 +28,10 @@ form h2 {
 }
 
 form label, form input {
+border-radius: 5px;
+  padding: 10px;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 form input[type="submit"] {
