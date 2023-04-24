@@ -27,7 +27,7 @@ form h2 {
   margin-top: 0;
 }
 
-form label, form input {
+form label, form input, form button {
 border-radius: 5px;
   padding: 10px;
   display: block;
