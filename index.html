@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reminder App</title>
+  <link rel="stylesheet" href="reminder.css">
+</head>
+<body>
+  <h1>Reminder App</h1>
+  <form id="login-form">
+    <center><h2>User Login</h2>
+    <input type="text" id="username" name="username" placeholder="username"><br>
+    <input type="password" id="password" name="password" placeholder="password"><br>
+    <button type="submit" style= "color:blue">Login</button></center>
+  </form>
+  <form id="reminder-form">
+    <center><h2>Add Reminder</h2></center>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date"><br>
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time"><br>
+    <button type="submit">Add Reminder</button>
+  </form>
+  <center>
+  <ul id="reminder-list">
+    <!-- Reminder items will be dynamically added here -->
+  </ul>
+ 
+  <script src="reminder.js"></script>
+</body>
+</html>
