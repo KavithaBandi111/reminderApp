@@ -4,28 +4,34 @@
   <title>Reminder App</title>
   <link rel="stylesheet" href="reminder.css">
 </head>
+
 <body><br>
   <h1>reminder app</h1>
+  <div id="login-container">
   <form id="login-form">
     <center><h2>User Login</h2>
-    <input type="text" id="username" name="username" placeholder="username">
-    <input type="password" id="password" name="password" placeholder="password">
-    <button type="submit" style= "color:blue">Login</button></center>
+    <input type="text" id="username" name="username" placeholder="username"><br>
+    <input type="password" id="password" name="password" placeholder="password"><br>
+    <button type="submit" >Login</button></center><br><br>
   </form>
+  </div>
+   <div id="reminder-container" style="display: none;">
   <form id="reminder-form">
-    <center><h2>Add Reminder</h2></center>
+     <center><h2>Add Reminder</h2>
     <label for="name">Name:</label>
     <input type="text" id="name" name="name">
     <label for="date">Date:</label>
     <input type="date" id="date" name="date">
     <label for="time">Time:</label>
     <input type="time" id="time" name="time">
-    <center><button type="submit" style= "color:blue">Add Reminder</button></center>
+    <button type="submit">Add Reminder</button></center>
   </form>
-  <center>
+  
   <ul id="reminder-list">
   </ul>
+  </div>
  
   <script src="reminder.js"></script>
 </body>
+
 </html>
